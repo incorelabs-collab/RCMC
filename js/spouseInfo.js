@@ -173,6 +173,9 @@ $(document).ready(function() {
                                                                     case "Designation":
                                                                         parentBodyString += "<div class='row listItems'><div class='col-xs-10 col-sm-11 pull-left'><h4 class='infoTitleLabel'>Designation</h4><h5 class='infoTitleDetail'>"+val+"</h5></div><div class='col-xs-2 col-sm-1 pull-right'><span class='glyphicon glyphicon-briefcase Icon'></span></div></div>";
                                                                         break;
+                                                                    case "classification":
+                                                                        parentBodyString += "<div class='row listItems'><div class='col-xs-10 col-sm-11 pull-left'><h4 class='infoTitleLabel'>Classification</h4><h5 class='infoTitleDetail'>"+val+"</h5></div><div class='col-xs-2 col-sm-1 pull-right'><span class='glyphicon glyphicon-tag Icon'></span></div></div>";
+                                                                        break;
                                                                     case "off_addr1":
                                                                         parentBodyString += "<div class='row listItems'><div class='col-xs-10 col-sm-11 pull-left'><h4 class='infoTitleLabel'>Office Address</h4><h5 class='infoTitleDetail'>"+val+"<br>";
                                                                         flag = true;
