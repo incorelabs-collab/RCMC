@@ -94,7 +94,7 @@ var app = {
 
             localStorage.setItem('dbCurrentOnline',json[0][0]);
 
-            app.requestStatus = [false, false, false, false, false, false, false];
+            app.requestStatus = [false, false, false, false, false, false, false, false];
 
             $.getJSON('http://rcmc.incorelabs.com/users.php', function(userData) {
                 app.createTable(userData,"users",0);
@@ -116,6 +116,9 @@ var app = {
             });
             $.getJSON('http://rcmc.incorelabs.com/events.php', function(eventsData) {
                 app.createTable(eventsData,"events",6);
+            });
+            $.getJSON('http://rcmc.incorelabs.com/projects/projects.php', function(projectsData) {
+                app.createTable(projectsData,"projects",7);
             });
 
         } else {

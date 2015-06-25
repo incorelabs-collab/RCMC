@@ -399,3 +399,12 @@ span.Icon {
 .searchResultsCount {
     margin-top: 0.3em;
 }
+
+/* Projects Page */
+.projectHeaderFont {
+    font-size: x-large;
+}
+
+.phoneNumberLink {
+    color: #039BE5;
+}
